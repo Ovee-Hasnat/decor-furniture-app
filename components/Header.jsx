@@ -33,7 +33,7 @@ const Header = () => {
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-emerald-700"></span>
               </Link>
               <Link
-                href="#category"
+                href="/category"
                 className="block group transition duration-300 w-fit mx-auto"
               >
                 <li>Category</li>
@@ -80,7 +80,7 @@ const Header = () => {
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-emerald-700"></span>
               </Link>
               <Link
-                href="#category"
+                href="/category"
                 className="block group transition duration-300 w-fit mx-auto"
               >
                 <li>Category</li>

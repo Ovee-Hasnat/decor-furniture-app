@@ -3,6 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from "next/link";
 
 const TopProduct = () => {
   const settings = {
@@ -132,7 +133,9 @@ const TopProduct = () => {
           </Slider>
         </div>
         <div>
-          
+          <Link href="/category">
+            <p className="border w-fit py-2 px-6 rounded-lg uppercase font-thin mx-auto border-neutral-400 hover:bg-emerald-800 hover:text-neutral-200 transition-all duration-300 ease-linear hover:tracking-widest drop-shadow-lg shadow-lg ">Explore more</p>
+          </Link>
         </div>
       </div>
     </div>
