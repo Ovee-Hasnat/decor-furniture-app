@@ -65,18 +65,18 @@ const Footer = () => {
               Submit
             </button> */}
 
-            <form class="w-full max-w-sm">
-              <div class="flex items-center border-b border-teal-500 py-2">
+            <form className="w-full max-w-sm">
+              <div className="flex items-center border-b border-emerald-700 py-2">
                 <input
-                  class="appearance-none bg-transparent border-none w-full text-neutral-400 mr-3 py-1 px-2 leading-tight focus:outline-none focus:placeholder-transparent"
+                  className="appearance-none bg-transparent border-none w-full text-neutral-400 mr-3 px-2 leading-tight focus:outline-none focus:placeholder-transparent"
                   type="text"
                   placeholder="Email"
                 />
                 <button
-                  class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+                  className="flex-shrink-0 bg-emerald-700 hover:bg-emerald-800 border-emerald-700 hover:border-emerald-800 text-sm border-4 text-white py-1 px-2 rounded"
                   type="button"
                 >
-                  Sign Up
+                  Subscribe
                 </button>
               </div>
             </form>
@@ -84,7 +84,7 @@ const Footer = () => {
 
           <div className="flex flex-col items-center space-y-2">
             <p className="uppercase font-thin text-neutral-300 inline-block">
-              Find us on{" "}
+              Find us on
             </p>
             <div>
               <SocialIcon

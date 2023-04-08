@@ -14,7 +14,7 @@ const Contact_Info = () => {
 
   return (
     <div>
-      <div className="flex flex-col lg:flex-row items-center justify-evenly">
+      <div className="flex flex-col lg:flex-row items-center justify-evenly my-10">
         <div className="w-fit">
           <motion.h4
             initial={{ x: -200 }}
@@ -46,7 +46,7 @@ const Contact_Info = () => {
         </div>
 
         <div>
-          <div className="mt-16">
+          <div className="mt-16 md:mt-0">
             <form
               onSubmit={handleSubmit(onSubmit)}
               className="flex flex-col space-y-1 w-[350px] mx-auto"

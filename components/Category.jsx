@@ -1,8 +1,10 @@
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 
 const Category = () => {
+  const Router = useRouter();
   return (
     <div className="h-[calc(100vh-48px)]">
       <div className="mt-16 flex flex-col h-full justify-between ">
@@ -19,7 +21,7 @@ const Category = () => {
             Solutions
           </p>
         </motion.div>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-1 gap-y-3 px-2 lg:px-32 ">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-1 gap-y-3 px-2 xl:px-44 ">
           <motion.div
             initial={{
               x: -100,
@@ -33,13 +35,22 @@ const Category = () => {
             viewport={{ once: true }}
             className="categoryCard"
           >
-            <Link href="#">
+            <div
+              onClick={() => {
+                Router.push(
+                  {
+                    pathname: `/projects/2001`,
+                  },
+                  `/projects/2001`
+                );
+              }}
+            >
               <img
                 className="w-56 h-52 object-cover rounded-md md:w-64 md:h-64 filter hover:brightness-75 transition-all duration-200 ease-linear"
                 src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=958&q=80"
               />
               <p>Living</p>
-            </Link>
+            </div>
           </motion.div>
           <motion.div
             initial={{
@@ -106,11 +117,11 @@ const Category = () => {
             </Link>
           </motion.div>
         </div>
-        <div className="w-full h-36 md:h-52  bg-[url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80')] md:bg-fixed bg-cover  bg-right-top md:bg-center">
-          <div className="w-full h-full bg-black/40 text-right">
+        <div className="w-full h-36 md:h-52 bg-[url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80')] bg-fixed bg-cover  bg-right-top md:bg-center">
+          <div className="w-full h-full bg-black/50 text-right">
             <div className="w-fit mx-auto flex flex-col justify-center h-full">
               <p className="text-white font-serif text-8xl uppercase">décor</p>
-              <p className="text-white text-2xl tracking-[5px] font-thin lowercase">
+              <p className="text-neutral-300 text-2xl tracking-[5px] font-thin lowercase">
                 your dream
               </p>
             </div>
