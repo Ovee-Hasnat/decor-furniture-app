@@ -26,7 +26,7 @@ const Header = () => {
           <div>
             <ul className="space-x-10 hidden md:flex text-neutral-200 font-thin uppercase tracking-widest">
               <Link
-                href="#hero"
+                href="/"
                 className="block group transition duration-300 w-fit mx-auto"
               >
                 <li>Home</li>
@@ -40,14 +40,14 @@ const Header = () => {
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-emerald-700"></span>
               </Link>
               <Link
-                href="#about"
+                href="/about"
                 className="block group transition duration-300 w-fit mx-auto"
               >
                 <li>About Us</li>
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-emerald-700"></span>
               </Link>
               <Link
-                href="contact"
+                href="/contact"
                 className="block group transition duration-300 w-fit mx-auto"
               >
                 <li>Contact</li>
@@ -73,7 +73,7 @@ const Header = () => {
                 onClick={closeNav}
               />
               <Link
-                href="#hero"
+                href="/"
                 className="block group transition duration-300 w-fit mx-auto"
               >
                 <li>Home</li>
@@ -87,14 +87,14 @@ const Header = () => {
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-emerald-700"></span>
               </Link>
               <Link
-                href="#about"
+                href="/about"
                 className="block group transition duration-300 w-fit mx-auto"
               >
                 <li>About Us</li>
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-emerald-700"></span>
               </Link>
               <Link
-                href="contact"
+                href="/contact"
                 className="block group transition duration-300 w-fit mx-auto"
               >
                 <li>Contact</li>

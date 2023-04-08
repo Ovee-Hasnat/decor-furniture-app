@@ -6,4 +6,7 @@
   .categoryCard {
     @apply w-fit mx-auto p-1 border text-center lowercase tracking-[3px] font-light shadow-lg rounded-lg;
   }
+  .formInput {
+    @apply rounded-md py-3 px-4 placeholder-neutral-500 border-b border-emerald-700 outline-none focus:placeholder-transparent caret-emerald-700 focus:text-neutral-700 placeholder:text-sm;
+  }
 }

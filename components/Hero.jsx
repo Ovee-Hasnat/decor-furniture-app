@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import lottieJson from "../public/animation/90901-furniture-animation.json";
 import sofaJson from "../public/animation/138678-sofa.json";
 import Link from "next/link";
-import bg from "../public/img/heroBG.png";
 
 const Hero = () => {
   return (

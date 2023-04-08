@@ -1,0 +1,443 @@
+{
+  "category": [
+    {
+      "id": 1001,
+      "name": "Chair",
+      "products": [
+        {
+          "id": "3",
+          "name": "Armchair",
+          "category": "Chairs",
+          "category_id": "3",
+          "description": "A cozy armchair with a soft cushion and sturdy wooden legs.",
+          "price": 399.99,
+          "image_url": "https://example.com/images/armchair.jpg"
+        },
+        {
+          "id": "5",
+          "name": "Recliner Chair",
+          "category": "Chairs",
+          "category_id": "3",
+          "description": "A comfortable recliner chair with a built-in footrest and adjustable backrest.",
+          "price": 499.99,
+          "image_url": "https://example.com/images/recliner-chair.jpg"
+        },
+        {
+          "id": "9",
+          "name": "Chaise Lounge",
+          "category": "Chairs",
+          "category_id": "3",
+          "description": "A luxurious chaise lounge with a soft velvet upholstery and a classic design.",
+          "price": 899.99,
+          "image_url": "https://example.com/images/chaise-lounge.jpg"
+        },
+        {
+          "id": "10",
+          "name": "Office Chair",
+          "category": "Chairs",
+          "category_id": "3",
+          "description": "A comfortable office chair with adjustable height and a supportive backrest.",
+          "price": 249.99,
+          "image_url": "https://example.com/images/office-chair.jpg"
+        },
+        {
+          "id": "13",
+          "name": "Accent Chair",
+          "category": "Chairs",
+          "category_id": "3",
+          "description": "A bold accent chair with a colorful upholstery and a modern design.",
+          "price": 299.99,
+          "image_url": "https://example.com/images/accent-chair.jpg"
+        },
+        {
+          "id": "16",
+          "name": "Wingback Chair",
+          "category": "Chairs",
+          "category_id": "3",
+          "description": "A classic wingback chair with a tufted backrest and a plush cushion.",
+          "price": 599.99,
+          "image_url": "https://example.com/images/wingback-chair.jpg"
+        },
+        {
+          "id": "18",
+          "name": "Bar Stool",
+          "category": "Chairs",
+          "category_id": "3",
+          "description": "A sleek bar stool with a chrome base and a comfortable leather seat.",
+          "price": 149.99,
+          "image_url": "https://example.com/images/bar-stool.jpg"
+        },
+        {
+          "id": "19",
+          "name": "Dining Chair",
+          "category": "Chairs",
+          "category_id": "3",
+          "description": "A set of four dining chairs with a modern design and a sturdy metal frame.",
+          "price": 499.99,
+          "image_url": "https://example.com/images/dining-chair.jpg"
+        },
+        {
+          "id": "21",
+          "name": "Lounge Chair",
+          "category": "Chairs",
+          "category_id": "3",
+          "description": "A comfortable lounge chair with a reclining backrest and a leather upholstery.",
+          "price": 899.99,
+          "image_url": "https://example.com/images/lounge-chair.jpg"
+        },
+        {
+          "id": "23",
+          "name": "Bench",
+          "category": "Chairs",
+          "category_id": "3",
+          "description": "A stylish bench with a tufted cushion and a metal frame.",
+          "price": 249.99,
+          "image_url": "https://example.com/images/bench.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 1002,
+      "name": "Sofa",
+      "products": [
+        {
+          "id": "1",
+          "name": "Leather Sofa",
+          "category": "Sofas",
+          "category_id": "1",
+          "description": "A comfortable leather sofa with room for three people.",
+          "price": 899.99,
+          "image_url": "https://example.com/images/leather-sofa.jpg"
+        },
+        {
+          "id": "6",
+          "name": "Sleeper Sofa",
+          "category": "Sofas",
+          "category_id": "1",
+          "description": "A versatile sleeper sofa that can be easily converted into a bed.",
+          "price": 1099.99,
+          "image_url": "https://example.com/images/sleeper-sofa.jpg"
+        },
+        {
+          "id": "11",
+          "name": "Futon",
+          "category": "Sofas",
+          "category_id": "1",
+          "description": "A stylish futon that can be easily converted into a bed.",
+          "price": 799.99,
+          "image_url": "https://example.com/images/futon.jpg"
+        },
+        {
+          "id": "17",
+          "name": "Sofa Bed",
+          "category": "Sofas",
+          "category_id": "1",
+          "description": "A comfortable sofa bed with a memory foam mattress and a modern design.",
+          "price": 1299.99,
+          "image_url": "https://example.com/images/sofa-bed.jpg"
+        },
+        {
+          "id": "25",
+          "name": "Sectional Sofa",
+          "category": "Sofas",
+          "category_id": "1",
+          "description": "A spacious sectional sofa with a chaise and a comfortable upholstery.",
+          "price": 1999.99,
+          "image_url": "https://example.com/images/sectional-sofa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "name": "Table",
+      "products": [
+        {
+          "id": "2",
+          "name": "Coffee Table",
+          "category": "Tables",
+          "category_id": "2",
+          "description": "A modern coffee table with a glass top and metal legs.",
+          "price": 299.99,
+          "image_url": "https://example.com/images/coffee-table.jpg"
+        },
+        {
+          "id": "4",
+          "name": "Dining Table",
+          "category": "Tables",
+          "category_id": "2",
+          "description": "A classic dining table with a solid wood top and elegant carved legs.",
+          "price": 599.99,
+          "image_url": "https://example.com/images/dining-table.jpg"
+        },
+        {
+          "id": "8",
+          "name": "End Table",
+          "category": "Tables",
+          "category_id": "2",
+          "description": "A small end table that can be used to hold lamps, books, and other items.",
+          "price": 149.99,
+          "image_url": "https://example.com/images/end-table.jpg"
+        },
+        {
+          "id": "12",
+          "name": "Console Table",
+          "category": "Tables",
+          "category_id": "2",
+          "description": "A sleek console table with a glass top and a metal frame.",
+          "price": 399.99,
+          "image_url": "https://example.com/images/console-table.jpg"
+        },
+        {
+          "id": "15",
+          "name": "Side Table",
+          "category": "Tables",
+          "category_id": "2",
+          "description": "A small side table that can be used to hold drinks, snacks, and other items.",
+          "price": 99.99,
+          "image_url": "https://example.com/images/side-table.jpg"
+        },
+        {
+          "id": "20",
+          "name": "Coffee Table",
+          "category": "Tables",
+          "category_id": "2",
+          "description": "A stylish coffee table with a tempered glass top and a chrome frame.",
+          "price": 349.99,
+          "image_url": "https://example.com/images/coffee-table.jpg"
+        },
+        {
+          "id": "24",
+          "name": "Dining Table",
+          "category": "Tables",
+          "category_id": "2",
+          "description": "A large dining table with a wooden top and sturdy legs.",
+          "price": 999.99,
+          "image_url": "https://example.com/images/dining-table.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1004,
+      "name": "Shelves",
+      "products": [
+        {
+          "id": "7",
+          "name": "Bookshelf",
+          "category": "Shelves",
+          "category_id": "4",
+          "description": "A stylish bookshelf with plenty of storage space for books, magazines, and decorative items.",
+          "price": 399.99,
+          "image_url": "https://example.com/images/bookshelf.jpg"
+        },
+        {
+          "id": "14",
+          "name": "Bookcase",
+          "category": "Shelves",
+          "category_id": "4",
+          "description": "A tall bookcase with adjustable shelves and a traditional design.",
+          "price": 599.99,
+          "image_url": "https://example.com/images/bookcase.jpg"
+        },
+        {
+          "id": "22",
+          "name": "Bookshelf",
+          "category": "Shelves",
+          "category_id": "4",
+          "description": "A modern bookshelf with a geometric design and multiple shelves.",
+          "price": 699.99,
+          "image_url": "https://example.com/images/bookshelf.jpg"
+        }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 2001,
+      "name": "Living Room",
+      "products": [
+        {
+          "id": "1",
+          "name": "Sectional Sofa",
+          "category": "Living Room",
+          "category_id": "1",
+          "description": "A spacious sectional sofa with a chaise and a comfortable upholstery.",
+          "price": 1999.99,
+          "image_url": "https://example.com/images/sectional-sofa.jpg"
+        },
+        {
+          "id": "6",
+          "name": "TV Stand",
+          "category": "Living Room",
+          "category_id": "1",
+          "description": "A modern TV stand with multiple shelves and compartments.",
+          "price": 599.99,
+          "image_url": "https://example.com/images/tv-stand.jpg"
+        },
+        {
+          "id": "9",
+          "name": "Accent Chair",
+          "category": "Living Room",
+          "category_id": "1",
+          "description": "A stylish accent chair with a patterned upholstery and wooden legs.",
+          "price": 399.99,
+          "image_url": "https://example.com/images/accent-chair.jpg"
+        },
+        {
+          "id": "14",
+          "name": "Coffee Table",
+          "category": "Living Room",
+          "category_id": "1",
+          "description": "A sleek coffee table with a tempered glass top and a metal frame.",
+          "price": 299.99,
+          "image_url": "https://example.com/images/coffee-table.jpg"
+        },
+        {
+          "id": "15",
+          "name": "Area Rug",
+          "category": "Living Room",
+          "category_id": "1",
+          "description": "A soft and plush area rug with a modern design.",
+          "price": 199.99,
+          "image_url": "https://example.com/images/area-rug.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2002,
+      "name": "Dining Room",
+      "products": [
+        {
+          "id": "2",
+          "name": "Dining Table",
+          "category": "Dining Room",
+          "category_id": "2",
+          "description": "A large dining table with a wooden top and sturdy legs.",
+          "price": 999.99,
+          "image_url": "https://example.com/images/dining-table.jpg"
+        },
+        {
+          "id": "3",
+          "name": "Dining Chair",
+          "category": "Dining Room",
+          "category_id": "2",
+          "description": "A comfortable dining chair with a padded seat and a wooden frame.",
+          "price": 199.99,
+          "image_url": "https://example.com/images/dining-chair.jpg"
+        },
+        {
+          "id": "8",
+          "name": "Buffet Cabinet",
+          "category": "Dining Room",
+          "category_id": "2",
+          "description": "A spacious buffet cabinet with multiple drawers and compartments.",
+          "price": 799.99,
+          "image_url": "https://example.com/images/buffet-cabinet.jpg"
+        },
+        {
+          "id": "16",
+          "name": "Bar Stool",
+          "category": "Dining Room",
+          "category_id": "2",
+          "description": "A stylish bar stool with a swivel seat and a metal frame.",
+          "price": 149.99,
+          "image_url": "https://example.com/images/bar-stool.jpg"
+        },
+        {
+          "id": "24",
+          "name": "Sideboard",
+          "category": "Dining Room",
+          "category_id": "2",
+          "description": "A modern sideboard with a wooden finish and multiple compartments.",
+          "price": 1299.99,
+          "image_url": "https://example.com/images/sideboard.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2003,
+      "name": "Kitchen",
+      "products": [
+        {
+          "id": "4",
+          "name": "Kitchen Island",
+          "category": "Kitchen",
+          "category_id": "3",
+          "description": "A versatile kitchen island with a wooden top and multiple shelves.",
+          "price": 1499.99,
+          "image_url": "https://example.com/images/kitchen-island.jpg"
+        },
+        {
+          "id": "10",
+          "name": "Bar Cart",
+          "category": "Kitchen",
+          "category_id": "3",
+          "description": "A stylish bar cart with a mirrored top and a metal frame.",
+          "price": 399.99,
+          "image_url": "https://example.com/images/bar-cart.jpg"
+        },
+        {
+          "id": "18",
+          "name": "Kitchen Table",
+          "category": "Kitchen",
+          "category_id": "3",
+          "description": "A small and compact kitchen table with a wooden finish.",
+          "price": 299.99,
+          "image_url": "https://example.com/images/kitchen-table.jpg"
+        },
+        {
+          "id": "21",
+          "name": "Kitchen Cart",
+          "category": "Kitchen",
+          "category_id": "3",
+          "description": "A mobile kitchen cart with a wooden top and multiple compartments.",
+          "price": 499.99,
+          "image_url": "https://example.com/images/kitchen-cart.jpg"
+        },
+        {
+          "id": "25",
+          "name": "Kitchen Stool",
+          "category": "Kitchen",
+          "category_id": "3",
+          "description": "A simple kitchen stool with a wooden seat and metal legs.",
+          "price": 79.99,
+          "image_url": "https://example.com/images/kitchen-stool.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2004,
+      "name": "Office",
+      "products": [
+        {
+          "id": "6",
+          "name": "Office Chair",
+          "category": "Office",
+          "category_id": "4",
+          "description": "An ergonomic office chair with a breathable mesh back and adjustable armrests.",
+          "price": 299.99,
+          "image_url": "https://example.com/images/office-chair.jpg"
+        },
+        {
+          "id": "14",
+          "name": "Writing Desk",
+          "category": "Office",
+          "category_id": "4",
+          "description": "A stylish writing desk with a wooden finish and multiple drawers.",
+          "price": 699.99,
+          "image_url": "https://example.com/images/writing-desk.jpg"
+        },
+        {
+          "id": "22",
+          "name": "File Cabinet",
+          "category": "Office",
+          "category_id": "4",
+          "description": "A sturdy file cabinet with multiple drawers and a lock.",
+          "price": 399.99,
+          "image_url": "https://example.com/images/file-cabinet.jpg"
+        }
+      ]
+    }
+  ]
+}

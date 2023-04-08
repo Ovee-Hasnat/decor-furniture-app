@@ -89,7 +89,7 @@ const WhyUs = () => {
           <p className="text-neutral-400 text-sm uppercase tracking-widest ml-4 w-14 md:w-auto">satisfied clients</p>
         </div>
 
-        <div>
+        <div className="bg-neutral-100 py-2">
           <h3 className="w-fit mx-auto text-lg underline pb-9">Testimonials</h3>
           <Slider {...settings2}>
             <div className="px-4">

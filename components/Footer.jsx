@@ -7,8 +7,6 @@ import { SocialIcon } from "react-social-icons";
 const Footer = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
 
-  const outlets = [1, 2];
-
   return (
     <div className="h-[calc(100vh-48px)]">
       <div className="flex flex-col h-full justify-between items-center">
@@ -53,19 +51,35 @@ const Footer = () => {
           />
         </div>
 
-        <div className="bg-neutral-800 h-96 w-full p-4 flex flex-col items-center justify-evenly md:justify-between">
+        <div className="bg-neutral-800 h-96 w-full p-4 flex flex-col items-center justify-evenly md:h-72">
           <div className="flex flex-col lg:flex-row lg:space-x-6 w-fit items-center mx-auto">
             <h4 className="text-neutral-100 font-light tracking-widest">
               Subscribe to get our regular updates
             </h4>
-            <input
+            {/* <input
               type="email"
-              className="my-2 rounded-md h-7 w-full lg:h-9"
+              className="my-2 rounded-md h-7 w-full lg:h-9 p-2"
               placeholder="Email adrress"
             />
             <button className="text-neutral-500 inline-block border rounded-md w-32 lg:w-44 lg:h-9">
               Submit
-            </button>
+            </button> */}
+
+            <form class="w-full max-w-sm">
+              <div class="flex items-center border-b border-teal-500 py-2">
+                <input
+                  class="appearance-none bg-transparent border-none w-full text-neutral-400 mr-3 py-1 px-2 leading-tight focus:outline-none focus:placeholder-transparent"
+                  type="text"
+                  placeholder="Email"
+                />
+                <button
+                  class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+                  type="button"
+                >
+                  Sign Up
+                </button>
+              </div>
+            </form>
           </div>
 
           <div className="flex flex-col items-center space-y-2">
@@ -75,42 +89,29 @@ const Footer = () => {
             <div>
               <SocialIcon
                 className="mx-1 scale-75 "
+                bgColor="#606060"
                 url="https://facebook.com"
               />
               <SocialIcon
                 className="mx-1 scale-75 "
+                bgColor="#606060"
                 url="https://instagram.com"
               />
               <SocialIcon
                 className="mx-1 scale-75 "
+                bgColor="#606060"
                 url="https://whatsapp.com"
               />
               <SocialIcon
                 className="mx-1 scale-75 "
+                bgColor="#606060"
                 url="https://pinterest.com"
               />
               <SocialIcon
-                className="mx-1 scale-75 "
+                className="mx-1 scale-75"
+                bgColor="#606060"
                 url="https://tiktok.com"
               />
-            </div>
-          </div>
-
-          <div className="text-neutral-200 flex-col items-center space-y-6 w-full max-w-5xl hidden md:flex">
-            <h4>Our Outlets</h4>
-            <div className="flex flex-wrap w-full justify-evenly">
-              {outlets.map((outlet) => {
-                return (
-                  <div key={outlet} className="flex items-center">
-                    <div className="w-12 h-12 md:w-20 md:h-20 border border-neutral-700 rounded-full flex items-center justify-center ">
-                      <div className="text-4xl font-bold">{outlet}</div>
-                    </div>
-                    <p className="text-sm w-40 ml-4 text-neutral-500 text-center">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                  </div>
-                );
-              })}
             </div>
           </div>
         </div>
