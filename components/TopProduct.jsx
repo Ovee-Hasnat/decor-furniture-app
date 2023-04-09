@@ -8,11 +8,11 @@ import Link from "next/link";
 const TopProduct = () => {
   const settings = {
     dots: true,
-    centerMode: true,
+    centerMode: false,
     centerPadding: "30px",
     slidesToShow: 5,
     speed: 500,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     arrows: false,
     mobileFirst: true,
     autoplay: true,
@@ -20,15 +20,17 @@ const TopProduct = () => {
     pauseOnHover: true,
     responsive: [
       {
-        breakpoint: 790,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 3,
+          slidesToScroll: 2,
         },
       },
       {
         breakpoint: 640,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
@@ -132,9 +134,11 @@ const TopProduct = () => {
             </div>
           </Slider>
         </div>
-        <div>
+        <div className="w-fit mx-auto">
           <Link href="/category">
-            <p className="border w-fit py-2 px-6 rounded-lg uppercase font-thin mx-auto border-neutral-400 hover:bg-emerald-800 hover:text-neutral-200 transition-all duration-300 ease-linear hover:tracking-widest drop-shadow-lg shadow-lg ">Explore more</p>
+            <p className="border w-fit py-2 px-6 rounded-lg uppercase font-thin mx-auto border-neutral-400 hover:bg-emerald-800 hover:text-neutral-200 transition-all duration-300 ease-linear hover:tracking-widest drop-shadow-lg shadow-lg ">
+              Explore more
+            </p>
           </Link>
         </div>
       </div>

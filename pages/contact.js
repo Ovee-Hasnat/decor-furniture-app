@@ -17,6 +17,7 @@ const contact = () => {
               initial={{ scale: 2 }}
               whileInView={{ scale: 1.2 }}
               transition={{ duration: 1 }}
+              viewport={{ once: true }}
               className="text-4xl font-serif text-white text-center"
             >
               Reach Out

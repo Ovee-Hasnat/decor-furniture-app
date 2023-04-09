@@ -65,13 +65,22 @@ const Category = () => {
             viewport={{ once: true }}
             className="categoryCard"
           >
-            <Link href="#">
+            <div
+              onClick={() => {
+                Router.push(
+                  {
+                    pathname: `/projects/2002`,
+                  },
+                  `/projects/2002`
+                );
+              }}
+            >
               <img
                 className="w-56 h-52 object-cover rounded-md md:w-64 md:h-64 filter hover:brightness-75 transition-all duration-200 ease-linear"
                 src="https://images.unsplash.com/photo-1617098591651-dd95032bc8bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
               />
               <p>Dining</p>
-            </Link>
+            </div>
           </motion.div>
           <motion.div
             initial={{
@@ -86,13 +95,22 @@ const Category = () => {
             viewport={{ once: true }}
             className="categoryCard"
           >
-            <Link href="#">
+            <div
+              onClick={() => {
+                Router.push(
+                  {
+                    pathname: `/projects/2003`,
+                  },
+                  `/projects/2003`
+                );
+              }}
+            >
               <img
                 className="w-56 h-52 object-cover rounded-md md:w-64 md:h-64 filter hover:brightness-75 transition-all duration-200 ease-linear"
                 src="https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
               />
               <p>Kitchen</p>
-            </Link>
+            </div>
           </motion.div>
           <motion.div
             initial={{
@@ -107,20 +125,31 @@ const Category = () => {
             viewport={{ once: true }}
             className="categoryCard"
           >
-            <Link href="#">
+            <div
+              onClick={() => {
+                Router.push(
+                  {
+                    pathname: `/projects/2004`,
+                  },
+                  `/projects/2004`
+                );
+              }}
+            >
               <img
                 className="w-56 h-52 object-cover rounded-md md:w-64 md:h-64 filter hover:brightness-75 transition-all duration-200 ease-linear"
                 src="https://images.unsplash.com/photo-1595846519845-68e298c2edd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
               />
 
               <p>office</p>
-            </Link>
+            </div>
           </motion.div>
         </div>
         <div className="w-full h-36 md:h-52 bg-[url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80')] bg-fixed bg-cover  bg-right-top md:bg-center">
           <div className="w-full h-full bg-black/50 text-right">
             <div className="w-fit mx-auto flex flex-col justify-center h-full">
-              <p className="text-white font-serif text-8xl uppercase">décor</p>
+              <p className="text-white font-serif text-8xl mix-blend-overlay mt-3">
+                décor
+              </p>
               <p className="text-neutral-300 text-2xl tracking-[5px] font-thin lowercase">
                 your dream
               </p>
